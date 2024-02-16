@@ -71,7 +71,7 @@ PurePursuit::PurePursuit() : Node("pure_pursuit_node") {
 
 double PurePursuit::to_radians(double degrees) {
     double radians;
-    return radians = degrees * M_PI / 180.0;
+    return radians = degrees * M_PI / 180.0; //anhamin
 }
 
 double PurePursuit::to_degrees(double radians) {
