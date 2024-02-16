@@ -1,7 +1,7 @@
 from setuptools import setup
 
 package_name = 'safety_node'
-
+print("Hello")
 setup(
     name=package_name,
     version='0.0.0',
